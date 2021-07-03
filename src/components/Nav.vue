@@ -6,7 +6,7 @@
     <li><router-link to="/filter">Filter</router-link></li>
    </ul>
  <ul class="userDetail" v-if="checkUser">
-            <li class="pull-right"><a href="">Hello! {{ checkUser }}</a></li>
+            <li class="pull-right"><a href="">Hello! {{ getUser }}</a></li>
             <li class="pull-right"><a href="" class="btn btn-danger" @click="logout">Logout</a></li>
         </ul>
 </nav>
