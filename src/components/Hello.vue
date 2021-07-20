@@ -5,7 +5,7 @@
     <p>Search term -{{ search }}</p>
     <div class="ser" v-for="name in matchingNames" :key="name">{{name}}</div>
 </template>
-
+/* Vue Js is Started */
 <script>
 import { ref,computed,watch} from 'vue'
 export default {
