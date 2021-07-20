@@ -1,6 +1,8 @@
 <template>
 <div class="about">
-<h1>This is about Page Component Page </h1>
+
+<h1>This is about Page Component Pagesss</h1>
+
 </div>
 </template>
 <script>
