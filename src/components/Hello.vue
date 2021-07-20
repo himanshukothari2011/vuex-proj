@@ -5,7 +5,7 @@
     <p>Search term -{{ search }}</p>
     <div class="ser" v-for="name in matchingNames" :key="name">{{name}}</div>
 </template>
-/* Vue Js is Started adding the sript (Export is the default functionality)*/
+/* Vue Js is Started adding the sript (Export is the default functionality and set up is used for composition api)*/
 <script>
 import { ref,computed,watch} from 'vue'
 export default {
