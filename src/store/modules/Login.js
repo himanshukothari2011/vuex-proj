@@ -10,7 +10,7 @@ const Login ={
             return state.isLoggedin != "false";
         },
         getUser:(state) =>{
-            alert(state.username);
+            
             return state.username !='Null';
            
         }

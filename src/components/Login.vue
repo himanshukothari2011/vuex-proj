@@ -59,7 +59,7 @@ export default{
               axios.get('db.json')
                 .then((res) => {
             if((res.data.username === this.username) && (res.data.password === this.password)){
-                    this.updateLoginStatus("true");
+                    this.updateLoginStatus(true);
                     this.updateUserName(this.username);
                    // const router = useRouter();
                     this.$router.push('/addtask');
